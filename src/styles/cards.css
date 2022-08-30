@@ -1,0 +1,36 @@
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+#one {
+   height: 100px;
+   width: 100px;
+   background-color: blue;
+
+}
+
+#two {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+
+}
+
+#three {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+
+}
+
+.animal {
+    height: 200px;
+    width: 200px;
+}
+
+.card {
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
