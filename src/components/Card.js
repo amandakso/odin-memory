@@ -22,71 +22,71 @@ const Card = (props) => {
     switch(photo) {
         case "0":
             url = deer;
-            animal= "deer";
+            animal= "Cervidae";
             break;
         case "1":
             url = elephant;
-            animal="elephant";
+            animal="Loxodonta africana";
             break;
         case "2":
             url = flamingo;
-            animal="flamingo";
+            animal="Phoenicopterus ruber";
             break;
         case "3":
             url = frog;
-            animal="frog";
+            animal="Agalychnis callidryas";
             break;
         case "4":
             url = giantpanda;
-            animal="giantpanda";
+            animal="Ailuropoda melanoleuca";
             break;
         case "5":
             url = giraffe;
-            animal="giraffe";
+            animal="Giraffa camelopardalis";
             break;
         case "6":
             url = leopard;
-            animal="leopard";
+            animal="Panthera pardus";
             break;
         case "7":
             url = lion;
-            animal="lion";
+            animal="Panthera leo";
             break;
         case "8":
             url = penguin;
-            animal="penguin";
+            animal="Aptenodytes forsteri";
             break;
         case "9":
             url = redpanda;
-            animal="redpanda";
+            animal="Ailurus fulgens";
             break;
         case "10":
             url = rhino;
-            animal="rhino";
+            animal="Ceratotherium simum";
             break;
         case "11":
             url = sandpiper;
-            animal="sandpiper";
+            animal="Scolopacidae";
             break;
         case "12": 
             url = seaotter;
-            animal="seaotter";
+            animal="Enhydra lutris";
             break;
         case "13":
             url = swan;
-            animal="swan";
+            animal="Cygnus buccinator";
             break;
         case "14":
             url = wolf;
-            animal="wolf";
+            animal="Canis lupus";
             break;
         case "15":
             url = zebra;
-            animal="zebra";
+            animal="Equus quagga";
             break;
         default:
             url = giantpanda;
-            animal="giantpanda";
+            animal="Ailuropoda melanoleuca";
     }
 
     return (
